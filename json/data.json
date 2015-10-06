@@ -1,0 +1,52 @@
+[
+	{
+		"role": "Student",
+		"forms": [
+			{
+				"name": "Form A"
+			},
+
+			{
+				"name": "Form B"
+			},
+
+			{
+				"name": "Form C"
+			}
+		]
+	},
+
+	{
+		"role": "Facutly",
+		"forms": [
+			{
+				"name": "Form D"
+			},
+
+			{
+				"name": "Form E"
+			},
+
+			{
+				"name": "Form F"
+			}
+		]
+	},
+
+	{
+		"role": "Staff",
+		"forms": [
+			{
+				"name": "Form G"
+			},
+
+			{
+				"name": "Form H"
+			},
+
+			{
+				"name": "Form I"
+			}
+		]
+	}
+]

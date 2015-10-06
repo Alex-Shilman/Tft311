@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/stylesheets/animate.css" />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="container" style="position:relative;min-height:100%;height:auto;">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#">311</a></li>
+            <li role="presentation"><a href="/forms/api/forms">View results</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Tufts</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1 data-wow-iteration="3" data-wow-duration="0.15s" class="wow pulse animated" style="visibility: visible; animation-duration: 0.15s; animation-iteration-count: 3; animation-name: pulse;">Tufts311</h1>
+        
+      </div>
+
+      <div id="TFP_viewport" class="row marketing" style="position:relative;">
+      	<p class-"tfp_cls_srch_loading"></p>
+      	<!--
+        <div class="col-lg-12">
+          <h4>Subheading</h4>
+          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+          <h4>Subheading</h4>
+          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+          <h4>Subheading</h4>
+          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>
+    	-->
+		<!--
+        <div class="col-lg-6">
+          <h4>Subheading</h4>
+          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+          <h4>Subheading</h4>
+          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+          <h4>Subheading</h4>
+          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>
+    	-->
+      </div>
+
+      <footer class="footer" style="position:absolute;width:100%;bottom:0;">
+        <p>&copy; 2015</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="./js/build/dependencies.js"></script>
+    <script src="./js/build/bundle.js"></script>
+    <script>
+    	app.start();
+    	new WOW().init();
+    </script>
+  </body>
+</html>
